@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700;800&family=Lexend+Deca:wght@200;400;800&family=Montserrat:wght@100;200;300;400;600&display=swap');
+body{
+    font-family: 'League Spartan', sans-serif;
+    color: #30303c;
+}
+/* Font face */
+.text-center{
+    text-align: center;
+}
+.container{
+    width: 1110px;
+    margin: 0 auto;
+}
+.header{
+    height: 80px;
+    background-color: #50bae2;
+}
+.logo{
+    display: inline-block;
+    vertical-align: middle;
+}
+.logo a {
+    color: #30303c;
+    text-decoration: none;
+    font-size: 32px;
+    letter-spacing: 2px;
+}
+.navi{
+    width: 70%;
+    display: inline-block;
+    margin-left: -6px;
+    vertical-align: middle;
+}
+.navi ul{
+    list-style: none;
+    text-align: right;
+}
+.navi li{
+    display: inline-block;
+    margin: 0 24px;
+
+}
+.navi li a{
+    padding: 8px 24px;
+    color: #30303c;
+    text-decoration: none;
+    background-color: #fb9267;
+    border-radius: 30px;
+}
+/* header */
+
+.banner{
+    background-color: #00c156;
+    padding: 20px 0;
+}
+.banner-content{
+    width: 30%;
+    padding-right: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.banner-content h1{
+    margin: 8px 0 20px;
+    padding-right: 20px;
+    /* text-align: justify; */
+}
+.TacGia{
+    width: 94%;
+    display: inline-block;
+    vertical-align: middle;
+    padding-bottom: 20px;
+}
+.banner-content p{
+    margin: 8px 0 36px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+    text-indent: 30px;
+    text-align: justify;
+}
+.btn{
+    padding: 8px 24px;
+    color: #30303c;
+    text-decoration: none;
+    background-color: #fb9267;
+    border-radius: 30px;
+}
+.banner-feature{
+    height: 100%;
+    padding-left: 50px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.banner-feature img{
+    width: 100%;
+}
+/* banner */
+.jane{
+    padding: 30px 0;
+    background-color: #71cff3;
+}
+.card{
+    width: 30%;
+    background: #00c156;
+    box-shadow: 5px 25px 30px rgba(0, 0, 0, 0.11);
+    border-radius: 20px;
+    overflow: hidden;
+    display: inline-block;
+    margin: 0 1%;
+    text-align: left;
+    text-align: justify;
+}
+.feature-img{
+    width: 100%;
+    overflow: hidden;
+}
+.feature-img img{
+    width: 100%;
+}
+.drtion-card{
+    padding: 48px 32px;
+}
+.drtion-card p{
+    margin: 12px 0 24px;
+}
+.meta span{
+    font-size: 14px;
+}
+.Seelink{
+    font-size: 12px;
+    float: right;
+}
+.text{
+    width: 60%;
+    padding: 30px 0;
+    overflow: hidden;
+    display: inline-block;
+}
+.text h2{
+    margin: 8px 0 36px;
+    padding-right: 20px;
+    text-align: justify;
+}
+text p{
+    margin: 8px 0 36px;
+    padding-right: 20px;
+    text-align: justify;
+}
+.linkmovie{
+    width: 35%;
+    padding: 30px 0;
+    overflow: hidden;
+    display: inline-block;
+}
+.linkmovie a{
+    width: 50%;
+    padding: 8px 24px;
+    color: #f4f5f9;
+    font-size: 24px;
+    font-weight: 800;
+    text-shadow: 6px 5px 7px #30303c; text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    bottom: 50px;
+    left: 150px;
+    text-align: center;
+}
+/* main */
+
+.about-footer{
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+}
+.about-footer a{
+margin-bottom: 24px;
+}
+.about-footer p{
+    margin-bottom: 24px;
+    padding-top: 24px;
+    text-align: left;
+    text-align: justify;
+}
+.list-menu{
+    width: 15%;
+    display: inline-block;
+    vertical-align: top;
+}
+.list-menu ul{
+    list-style: none;
+}
+.list-menu li{
+    margin: 20px;
+}
+.list-menu a{
+    color: #30303c;
+    text-decoration: none;
+}
+
+.coppy-right{
+    background-color: #69e0a1;
+    padding: 12px 0;
+    text-align: center;
+    color: #30303c
+}
